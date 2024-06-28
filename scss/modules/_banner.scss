@@ -1,0 +1,14 @@
+.banner {
+    margin-top: 4rem;
+    &__title {
+        font-weight: 700;
+        margin-right: 3rem;
+        font-size: 4.5rem;
+
+        @include large-mobile {
+            font-size: 4rem;
+            margin-right: 0;
+            margin-bottom: 1rem;
+        }
+    }
+}

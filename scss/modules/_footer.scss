@@ -1,0 +1,19 @@
+.footer {
+    background-color: #D87FF6;
+    color: #ffffff;
+    margin-top: 4rem;
+    &__inner {
+        min-height: 10rem;
+        padding: 2rem;
+        max-width: 78.5rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__link {
+        font-weight: 500;
+        font-size: 2.8rem;
+    }
+}

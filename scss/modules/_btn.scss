@@ -1,0 +1,21 @@
+.btn {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #fff;
+    padding: 1.5rem 2.5rem;
+    background-color: #FF4B4B;
+    border-radius: 2.5rem;
+    transition: all linear .2s;
+
+    &:hover {
+        box-shadow: .2rem .5rem 1rem #497957;
+    }
+
+    @include large-mobile {
+        font-size: 2rem;
+    }
+}

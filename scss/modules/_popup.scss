@@ -1,0 +1,66 @@
+.popup__open-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Стили для оверлея попапа */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для видимого оверлея */
+.popup:target {
+    display: flex;
+}
+
+/* Стили для самого попапа */
+.popup__content {
+    background: #A6C9FF;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 40rem;
+    min-height: 40rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup__title {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+/* Стили для кнопки закрытия попапа */
+.popup__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    width: 4.3rem;
+    height: 3.9rem;
+    border-radius: .5rem;
+    background-color: #497957;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
